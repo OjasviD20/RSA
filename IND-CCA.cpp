@@ -87,6 +87,8 @@ int main()
 		mb = (m1 * invA) % N;
 		cout << "The original plaintext message m computed from m' is: " << mb;
 		return 0;
+		cout << "Would you like to try again 'Y' or 'N' " << endl;
+		cin >> Con;
 	} while (Con == "Y" || Con == "y");
 
 }
